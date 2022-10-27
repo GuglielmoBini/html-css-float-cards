@@ -16,16 +16,23 @@ body {
 .container {
     max-width: 1600px;
     margin: 0 auto;
+    text-align: center;
 }
+
 /*HEADER*/
 
 h1 {
     color: #E43170;
-    text-align: center;
     font-size: 40px;
     font-weight: 700;
 }
 
 header {
     margin: 40px;
+}
+
+/*MAIN*/
+
+#text {
+    font-size: 1.3rem;
 }
