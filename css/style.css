@@ -14,9 +14,16 @@ body {
 
 /*UTILS*/
 .container {
-    max-width: 1600px;
+    max-width: 1725px;
     margin: 0 auto;
-    text-align: center;
+    /*color: white;*/
+}
+
+img {
+    height: 100px;
+    width: auto;
+    float: left;
+
 }
 
 /*HEADER*/
@@ -27,12 +34,19 @@ h1 {
     font-weight: 700;
 }
 
-header {
-    margin: 40px;
+header, #text {
+    margin: 60px;
+    text-align: center;
 }
-
-/*MAIN*/
 
 #text {
     font-size: 1.3rem;
 }
+
+/*MAIN*/
+
+.column {
+    float: left;
+    width: calc(100% / 3);
+}
+
