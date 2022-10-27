@@ -12,18 +12,31 @@ body {
     font-family: 'Fredoka', sans-serif;
 }
 
-/*UTILS*/
-.container {
-    max-width: 1725px;
-    margin: 0 auto;
-    /*color: white;*/
-}
-
 img {
     height: 100px;
     width: auto;
     float: left;
+    margin-right: 10px;
+}
 
+a {
+    text-decoration: none;
+    color: #52ADDD;
+}
+
+h3 {
+    margin-top: 17px;
+    color: white;
+}
+
+.role {
+    margin: 5px 0;
+    color: #D3D2D3;
+}
+/*UTILS*/
+.container {
+    max-width: 1725px;
+    margin: 0 auto;
 }
 
 /*HEADER*/
@@ -48,5 +61,5 @@ header, #text {
 .column {
     float: left;
     width: calc(100% / 3);
+    background-color: black;
 }
-
